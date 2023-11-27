@@ -1,0 +1,706 @@
+html {
+  font-size: 12px;
+}
+
+main {
+  font-size: 1.6rem;
+  font-family: "Forum", serif;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 700px;
+}
+
+h5 {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 700px;
+}
+
+.Carousel-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.First-button {
+  display: flex;
+  background-color: #BB945F;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.Second-button {
+  display: flex;
+  background-color: #0C0C0E;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.Third-button {
+  display: flex;
+  background-color: #0C0C0E;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.form-radio {
+  display: inline-block;
+}
+
+.form-radio label {
+  cursor: pointer;
+}
+
+.form-radio input {
+  cursor: pointer;
+}
+
+input[type=radio] {
+  accent-color: #000000;
+}
+
+input[type=radio]:checked {
+  background-color: #000000;
+}
+
+input[type=radio]:checked + span {
+  font-weight: 700;
+}
+
+.buy-button {
+  display: grid;
+  margin: -20px 600px -45px 15px;
+  padding: 9px 27px 9px 27px;
+  width: 75px;
+  height: 30px;
+  color: #0C0C0E;
+  font-size: 10px;
+  font-family: Inter;
+  font-weight: 700;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+  background-color: #FFFFFF;
+  align-self: center;
+  cursor: pointer;
+}
+
+.own-button {
+  display: grid;
+  margin: -20px 600px -45px 15px;
+  padding: 9px 27px 9px 27px;
+  width: 75px;
+  height: 30px;
+  font-size: 10px;
+  font-family: Inter;
+  font-weight: 700;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+  align-self: center;
+  background-color: #FFFFFF;
+  color: #BB945F;
+  border: solid 1px;
+  border-color: #BB945F;
+  cursor: pointer;
+}
+
+.Check-the-card-Button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 242px;
+  height: 44px;
+  margin: 300px 0 0 -420px;
+  color: #0C0C0E;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.Sign-Up-button {
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  color: #0C0C0E;
+  font-size: 10px;
+  font-family: Inter;
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 75px;
+  height: 30px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.Log-in-button {
+  align-items: center;
+  justify-content: center;
+  color: #0C0C0E;
+  font-size: 10px;
+  font-family: Inter;
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 75px;
+  height: 30px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.Welcome {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.books {
+  display: flex;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.header {
+  margin: auto;
+  max-width: 1440px;
+  background: #0C0C0E;
+  color: #FFFFFF;
+  padding: 20px 0 20px 0;
+  height: 90px;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.header-navigation {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation-link {
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 50px;
+  align-self: center;
+  list-style: none;
+  padding: 0 15px 0 15px;
+  cursor: pointer;
+}
+
+.header-icon {
+  align-self: center;
+  padding: 31px 20px 31px 57px;
+  cursor: pointer;
+}
+
+.About {
+  display: flex;
+  align-items: center;
+  padding: 20px 667px 0 667px;
+}
+
+.hr {
+  display: flex;
+  width: 50px;
+  padding: 20;
+  border: none;
+  border-top: 1px solid #000000;
+}
+
+.About-text {
+  display: flex;
+  justify-content: center;
+}
+
+.About-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Favorites-head {
+  display: flex;
+  flex-direction: center;
+  flex-wrap: wrap;
+  width: 1440px;
+}
+
+.Favorites {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Winter {
+  padding: 0 50px 0 20px;
+}
+
+.Spring {
+  padding: 0 50px 0 20px;
+}
+
+.Summer {
+  padding: 0 50px 0 20px;
+}
+
+.Autumn {
+  padding: 0 50px 0 20px;
+}
+
+.hr-colored {
+  display: grid;
+  width: 50px;
+  margin: 15px 428px 0 20px;
+  border: none;
+  border-top: 1px solid #BB945F;
+}
+
+.Favorites-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.First-book {
+  display: grid;
+  align-items: center;
+  width: 550px;
+  height: 556px;
+  border: 1px black solid;
+  margin: 40px 300px 40px 0px;
+}
+
+.Second-book {
+  display: grid;
+  align-items: center;
+  width: 550px;
+  height: 556px;
+  border: 1px black solid;
+  margin: 40px 40px 40px 0px;
+}
+
+.Third-book {
+  display: grid;
+  align-items: center;
+  width: 550px;
+  height: 556px;
+  border: 1px black solid;
+  margin: 40px 300px 40px 0px;
+}
+
+.Fourth-book {
+  display: grid;
+  align-items: center;
+  width: 550px;
+  height: 556px;
+  border: 1px black solid;
+  margin: 40px 40px 40px 0px;
+}
+
+.Staff-Picks {
+  display: grid;
+  margin: 15px 428px 0 20px;
+}
+
+.book-name {
+  display: grid;
+  margin: 15px 362px 0 20px;
+  width: 168px;
+  height: 40px;
+}
+
+.book-name-three {
+  display: grid;
+  margin: 15px 362px 0 20px;
+  width: 355px;
+  height: 40px;
+}
+
+.Author {
+  display: grid;
+  margin: -35px 362px 0 20px;
+  width: 168px;
+  height: 40px;
+}
+
+.Text-book {
+  display: grid;
+  width: 355px;
+  height: 320px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin: -30px 15px 15px 15px;
+}
+
+.book-image {
+  display: grid;
+  width: 200px;
+  height: 300px;
+  margin: -240px 40px 0 400px;
+}
+
+.Coffee-Shop {
+  display: flex;
+  justify-content: center;
+}
+
+.Coffee-text {
+  display: flex;
+  justify-content: center;
+  width: 1400px;
+  height: 120px;
+  padding: 40px 20px 40px 20px;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 40px;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+}
+
+.Coffee-Tea {
+  display: flex;
+  align-self: flex-start;
+  color: #BB945F;
+  font-size: 40px;
+  font-family: Forum;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 40px;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+  padding: 0 280px 40px 20px;
+}
+
+.Coffee {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 20px 40px 20px;
+}
+
+.Desserts {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 40px 20px;
+  align-items: flex-end;
+}
+
+.Desserts-Cakes {
+  display: flex;
+  align-self: flex-start;
+  color: #BB945F;
+  font-size: 40px;
+  font-family: Forum;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 40px;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+  padding: 0 20px 40px 20px;
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Coffee-Menu {
+  display: flex;
+  padding: 40px 60px 40px 20px;
+  margin: 0 0 0 0;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 40px;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+}
+
+.hr-price {
+  display: flex;
+  width: 100px;
+  margin: 15px 60px 0 60px;
+  border: none;
+  border-top: 1px solid #BB945F;
+  align-self: center;
+}
+
+.Desserts-Menu {
+  display: flex;
+  padding: 40px 60px 40px 20px;
+  margin: 0 0 0 0;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 40px;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+}
+
+.Our-Contacts {
+  display: flex;
+}
+
+.Our-Contacts-Head {
+  display: flex;
+  justify-content: center;
+}
+
+.layout-2column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Our-Contacts-Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 201px 40px 0;
+}
+
+.map {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 40px 0 40px 500px;
+  margin-right: -640px;
+}
+
+.hr-contacts {
+  display: flex;
+  width: 50px;
+  padding: 20;
+  border: none;
+  border-top: 1px solid #000000;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+
+.Digital-Library-Cards {
+  display: flex;
+}
+
+.Digital-Library-Cards-Head {
+  display: flex;
+  justify-content: center;
+}
+
+.Layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 456px;
+  height: 120px;
+  padding: 10px 0 5px 150px;
+}
+
+.Reader-card {
+  display: flex;
+  color: black;
+  font-size: 30px;
+  font-family: Forum;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  justify-content: flex-end;
+}
+
+.info {
+  display: flex;
+  align-items: flex-end;
+  color: black;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.4px;
+}
+
+.people {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Find {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 5px 0;
+  color: black;
+  font-size: 30px;
+  font-family: Inter;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  word-wrap: break-word;
+}
+
+.Library-card {
+  display: flex;
+  border: 3px #BB945F solid;
+  align-items: center;
+  justify-content: flex-start;
+  width: 600px;
+  height: 386px;
+  margin: 50px 50px 40px 40px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Brooklyn-Public {
+  display: flex;
+  background: #BB945F;
+  align-items: center;
+  flex-direction: column;
+  width: 560px;
+  height: 272px;
+  margin: 20px 20px 94px 20px;
+  font-size: 30px;
+  font-family: Forum;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.6px;
+  word-wrap: break-word;
+}
+
+.name {
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  width: 520px;
+  height: 66px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.number {
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  width: 520px;
+  height: 66px;
+  border: none;
+}
+
+input:-moz-placeholder {
+  width: 182px;
+  height: 50px;
+}
+
+input,
+input::-webkit-input-placeholder {
+  color: #8E8E8E;
+  font-size: 30px;
+  font-family: Forum;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.6px;
+}
+
+.footer {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  margin: auto;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #000000;
+  width: 1440px;
+  height: 250px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.footer-text-two {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.hr-footer {
+  display: flex;
+  justify-content: center;
+  width: 1400px;
+  margin-bottom: 110px;
+  border: none;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-name {
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,138 @@
+.Favorites-head{
+    display: flex;
+    flex-direction: center;
+    flex-wrap: wrap;
+    width: 1440px;
+   
+
+}
+.Favorites{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.Winter{
+    padding: 0 50px 0 20px;
+}
+.Spring{
+    padding: 0 50px 0 20px;
+}
+.Summer{
+    padding: 0 50px 0 20px;
+}
+.Autumn{
+    padding: 0 50px 0 20px;
+}
+
+.hr-colored{
+    display: grid;
+    width: 50px;
+    margin: 15px 428px 0 20px;
+    border:none;
+    border-top: 1px solid $color-brand;
+
+    
+}
+    
+.Favorites-items{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+  
+    
+ }
+ 
+
+.First-book {
+    display: grid;
+    align-items: center ;
+    width: 550px;
+    height: 556px;
+    border: 1px black solid;
+    margin: 40px 300px 40px 0px;
+    
+  
+}
+ .Second-book{
+    display: grid;
+    align-items: center;
+    width: 550px;
+    height: 556px;
+    border: 1px black solid;
+    margin: 40px 40px 40px 0px;
+ }
+
+
+    
+ .Third-book{
+    display: grid;
+    align-items: center;
+    width: 550px;
+    height: 556px;
+    border: 1px black solid;
+    margin: 40px 300px 40px 0px;
+    
+    
+}
+
+.Fourth-book{
+    display: grid;
+    align-items: center;
+    width: 550px;
+    height: 556px;
+    border: 1px black solid;
+    margin: 40px 40px 40px 0px;
+    
+    
+}
+
+.Staff-Picks{
+    display: grid;
+    margin: 15px 428px 0 20px;
+}
+
+.book-name{
+    display: grid;
+    margin:15px 362px 0 20px ;
+    width: 168px;
+    height: 40px;
+}
+
+.book-name-three{
+    display: grid;
+    margin:15px 362px 0 20px ;
+    width: 355px;
+    height: 40px;
+}
+
+.Author{
+    display: grid;
+    margin: -35px 362px 0 20px ;
+    width: 168px;
+    height: 40px;
+}
+
+
+
+.Text-book{
+    display: grid;
+    width:355px;
+    height:320px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin: -30px 15px 15px 15px;
+}
+
+
+
+
+.book-image{
+    display: grid;
+    width: 200px;
+    height: 300px;
+    margin: -240px 40px 0 400px;
+
+}
+

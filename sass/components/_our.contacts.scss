@@ -1,0 +1,41 @@
+.Our-Contacts{
+    display: flex;
+    
+   
+}
+.Our-Contacts-Head{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.layout-2column{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.Our-Contacts-Content{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding: 0 201px 40px 0;
+    
+   
+}
+.map{  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px 0 40px 500px;
+    margin-right: -640px;
+    
+}
+.hr-contacts{
+    display: flex;
+  width: 50px;
+  padding: 20;
+  border: none;
+  border-top: 1px solid #000000;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}

@@ -1,0 +1,40 @@
+.header{
+    margin: auto;
+    max-width: $content-width;
+    background:$color-titles;
+    color: $color-header-footer;
+    padding:20px 0 20px 0;
+    height: 90px;
+    }
+
+.header-wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.header-navigation{
+    display:flex;
+
+
+}
+.navigation{
+    display:flex;
+    
+}
+.navigation-link{
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 50px; 
+    align-self: center;
+    list-style: none;
+    padding: 0 15px 0 15px;
+    cursor: pointer;
+
+}
+.header-icon{
+    align-self: center;
+    padding: 31px 20px 31px 57px;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.About{
+    display: flex;
+    align-items: center;
+    padding: 20px 667px 0 667px;
+}
+.hr{
+    display: flex;
+    width: 50px;
+    padding: 20;
+    border:none;
+    border-top: 1px solid $color-text;
+    
+    
+}
+
+.About-text{
+    display: flex;
+    justify-content: center;
+}
+
+.About-images{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+

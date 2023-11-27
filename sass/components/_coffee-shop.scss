@@ -1,0 +1,110 @@
+
+.Coffee-Shop{
+    display: flex;
+    justify-content: center;
+}
+
+.Coffee-text{
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    height: 120px;
+    padding: 40px 20px 40px 20px;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 40px;
+    letter-spacing: 2px;
+    word-wrap: break-word 
+}
+
+.Coffee-Tea{
+    display: flex;
+    align-self: flex-start;
+    color: $color-brand;
+    font-size: 40px;
+    font-family: Forum;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 40px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    padding:0 280px 40px 20px;
+}
+
+
+
+.Coffee{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding:0 20px 40px 20px;
+}
+
+
+.Desserts{
+    display: flex;
+    flex-direction: column;
+    padding:0 20px 40px 20px;
+    align-items: flex-end;
+
+
+}
+
+.Desserts-Cakes{
+    display: flex;
+    align-self: flex-start;        
+    color: $color-brand;
+    font-size: 40px;
+    font-family: Forum;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 40px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    padding:0 20px 40px 20px;
+}
+
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.Coffee-Menu{
+    display: flex;
+    padding: 40px 60px 40px 20px;
+    margin: 0 0 0 0;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 40px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+}
+
+.hr-price{
+    display: flex;
+    width: 100px;
+    margin: 15px 60px 0 60px;
+    border:none;
+    border-top: 1px solid $color-brand;
+    align-self: center; 
+    
+}
+
+.Desserts-Menu{
+    display: flex;
+    padding: 40px 60px 40px 20px;
+    margin: 0 0 0 0;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 40px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+}

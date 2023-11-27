@@ -1,19 +1,26 @@
-html {
-    font-size: 12px;
-  }
-  
-  body {
-    font-size: 1.6rem;
-    font-family: "Forum", serif;
-    font-family: "Inter", sans-serif;
-  }
-  
-  h1 {
-    font-size: 40px;
-    font-family: Forum;
-    font-weight: 400;
-    line-height: 50px;
-    letter-spacing: 3px;
-  
-  }
+@import "abstract/constants";
+
+@import "base/base";
+
+@import "base/buttons";
+
+@import "components/welcome";
+
+@import "layouts/wrapper";
+
+@import "components/header";
+
+@import "components/about";
+
+@import "components/favorites";
+
+@import "components/coffee-shop";
+
+@import "components/our.contacts";
+
+@import "components/cards";
+
+@import "components/footer"
+
+ 
   

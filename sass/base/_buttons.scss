@@ -1,0 +1,146 @@
+.Carousel-pagination{
+    display: flex;
+    justify-content: center;
+}
+.First-button{
+    display: flex;
+    background-color:$color-brand;
+    width: 16px; 
+    height: 16px;
+    border-radius: 50px;
+    margin: 20px;
+    cursor: pointer;
+
+}
+.Second-button{
+    display: flex;
+    background-color:$color-titles;
+    width: 16px; 
+    height: 16px;
+    border-radius: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+.Third-button{
+    display: flex;
+    background-color:$color-titles;
+    width: 16px; 
+    height: 16px;
+    border-radius: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.form-radio{
+    display:inline-block   
+}
+
+.form-radio label{
+    cursor: pointer;
+}
+
+.form-radio input{
+    cursor: pointer;
+}
+
+input[type="radio"]{
+ accent-color: $color-text;
+}
+
+input[type="radio"]:checked {
+    background-color:$color-text;
+
+}
+
+input[type="radio"]:checked+span{
+    font-weight: 700; 
+}
+
+.buy-button{
+    display: grid;
+    margin: -20px 600px -45px 15px;
+    padding: 9px 27px 9px 27px;
+    width: 75px;
+    height: 30px;
+    color: $color-titles;
+    font-size: 10px;
+    font-family: Inter;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    background-color: $color-header-footer;
+    align-self: center;
+    cursor: pointer;
+    
+}
+
+.own-button{
+    display: grid;
+    margin: -20px 600px -45px 15px;
+    padding: 9px 27px 9px 27px;
+    width: 75px;
+    height: 30px;
+    font-size: 10px;
+    font-family: Inter;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    align-self: center;
+    background-color:$color-header-footer ;
+    color:$color-brand;
+    border: solid 1px;
+    border-color: $color-brand;
+    cursor: pointer;
+    
+
+}
+.Check-the-card-Button{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    width: 242px;
+    height: 44px;
+    margin: 300px 0 0 -420px;
+    color: #0C0C0E;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    background-color: $color-header-footer;
+    cursor:pointer;
+
+}
+
+.Sign-Up-button{
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: #0C0C0E;
+    font-size: 10px;
+    font-family: Inter;
+    font-weight: 700;
+    letter-spacing: 1px; 
+    width: 75px;
+    height: 30px;
+    background-color: $color-header-footer;
+    cursor: pointer;
+}
+
+.Log-in-button{
+    align-items: center;
+    justify-content: center;
+   
+    color: #0C0C0E;
+    font-size: 10px;
+    font-family: Inter;
+    font-weight: 700;
+    letter-spacing: 1px; 
+    width: 75px;
+    height: 30px;
+    background-color: $color-header-footer;
+    cursor: pointer;
+
+}
